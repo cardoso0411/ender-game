@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>rpg - Ender Game</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Press Start 2P', cursive;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 2em;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .titulo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .itens-principais, .itens-laterais {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item-grande, .item-pequeno {
+            background-color: #262626;
+            border: 2px solid #ffcc00;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .item-grande:hover, .item-pequeno:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #ffcc00;
+        }
+        .foto-item, .foto-pequena {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            color: #ff6600;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .botao-footer {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .botao-footer:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ender Game</h1>
+        <nav>
+            <a href="index.html" class="botao-nav">Home</a>
+            <a href="sobre.html" class="botao-nav">Sobre Nós</a>
+            <a href="lancamentos.html" class="botao-nav">Lançamentos</a>
+            <a href="#" class="botao-nav">Login</a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h2>Jogos de RPG</h2>
+        <p>Explore nossos jogos de RPG, onde você pode viver experiências emocionantes e desafiadoras. Confira os jogos mais populares!</p>
+
+    <main>
+        <section class="itens-principais">
+                <div class="item-grande">
+                    <a href="the-witcher-3.html">
+                    <img src="img/the-witcher-3.jpg" alt="The Witcher 3" class="foto-item">
+                    </a>
+                    <p class="card-title">The Witcher 3 - Wild Hunt</p>
+                    Explore o mundo de The Witcher em uma aventura épica. Clique para saber mais...
+                </div>
+            </a>
+            <div class="item-grande">
+                <a href="dark-souls-3.html">
+                <img src="img/dark-souls-3.jpg" alt="Dark Souls 3" class="foto-item">
+                </a>
+                <p class="card-title">Dark Souls 3</p>
+                <p>Enfrente desafios extremos em um mundo sombrio e implacável. Clique para saber mais...</p>
+            </div>
+            <div class="item-grande">
+                <a href="diablo-3.html">
+                <img src="img/diablo-3.jpg" alt="Diablo 3" class="foto-item">
+                </a>
+                <p class="card-title">Diablo 3</p>
+                <p>Enfrente demônios e salve o mundo de Azeroth. Clique para saber mais...</p>
+            </div>
+                <div class="item-grande">
+                    <a href="final-fantasy-xv.html">
+                    <img src="img/final-fantasy-xv.jpg" alt="Final Fantasy XV" class="foto-item">
+                    </a>
+                    <p class="card-title">Final Fantasy XV</p>
+                    <p>Explore o mundo de Final Fantasy em uma aventura épica. Clique para saber mais...</p>
+                </div>
+            <div class="item-grande">
+                <a href="moster-hunter-world.html">
+                <img src="img/moster-hunter-world.jpg" alt="Moster Hunter World" class="foto-item">
+                </a>
+                <p class="card-title">Moster Hunter World</p>
+                <p>Caçando monstros em um mundo aberto e empolgante. Clique para saber mais...</p>
+            </div>
+            
+            <div class="item-grande">
+                <a href="Sonic-RPG.html">
+                <img src="img/sonic-01.jpg" alt="Sonic RPG 10" class="foto-item">
+                </a>
+                <p class="card-title"> SONIC RPG: THE COMPLETE SAGA</p>
+                Corra em alta velocidade pelo mundo de Sonic e descubra o final épico desta história lendária. Clique para saber mais...
+            </div>
+
+        </section>
+
+        <div class="itens-laterais">
+            <strong><p class="titulo-lateral">Categoria Publicitária</p></strong>
+
+            <div class="item-pequeno">
+                <p class="card-title"> Ego Chaser</p>
+                Uma barra de cereais com 400% do seu açúcar diário e zero gramas de arrependimento. Perfeita para quem corre 20km para compensar o vazio existencial ou para quem só quer um motivo para usar roupas de lycra em público. Clique para saber mais...
+            </div>
+
+            <div class="item-pequeno">
+                <p class="card-title">Pißwasser</p>
+                Exportada da Alemanha, mas com o espírito de um bêbado brigando em um estacionamento. Beba até que seus problemas sumam e suas decisões façam sentido! Proibido para menores de 18 anos (ou não, a gente não confere o RG). Clique para saber mais...
+            </div>
+
+            <div class="item-pequeno">
+                <p class="card-title">Sprunk (Refrigerante)</p>
+                Com o tom verde neon que brilha no escuro e cafeína suficiente para fritar o cérebro de um elefante. A bebida favorita dos viciados em adrenalina e dos funcionários da Lifeinvader que não dormem há três dias.
+                Sprunk – Acelere seu coração até ele pedir arrego.
+            </div>
+    </main>
+    <a href="lancamentos.html" class="botao-footer">Voltar para Lançamentos</a>
+</body>
+</html>

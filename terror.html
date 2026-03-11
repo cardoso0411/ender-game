@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Terror - Ender Game</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Press Start 2P', cursive;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 2em;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .titulo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .itens-principais, .itens-laterais {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item-grande, .item-pequeno {
+            background-color: #262626;
+            border: 2px solid #ffcc00;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .item-grande:hover, .item-pequeno:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #ffcc00;
+        }
+        .foto-item, .foto-pequena {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            color: #ff6600;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .botao-footer {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .botao-footer:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ender Game</h1>
+        <nav>
+            <a href="index.html" class="botao-nav">Home</a>
+            <a href="sobre.html" class="botao-nav">Sobre Nós</a>
+            <a href="lancamentos.html" class="botao-nav">Lançamentos</a>
+            <a href="#" class="botao-nav">Login</a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h2>Jogos de Terror</h2>
+        <p>Explore nossos jogos de terror, onde você pode viver experiências assustadoras e emocionantes. Confira os jogos mais populares!</p>
+
+    <main>
+        <section class="itens-principais">
+                <div class="item-grande">
+                    <a href="the-walking-dead.html">
+                    <img src="img/the-walking-dead.jpg" alt="The Walking Dead" class="foto-item">
+                    </a>
+                    <p class="card-title">The Walking Dead</p>
+                    Enfrente hordas de zumbis e tome decisões difíceis para sobreviver em um mundo pós-apocalíptico. Clique para saber mais...
+                </div>
+            </a>
+            <div class="item-grande">
+                <a href="resident-evil-9.html">
+                <img src="img/resident-evil-9.jpg" alt="Resident Evil 9" class="foto-item">
+                </a>
+                <p class="card-title">Resident Evil 9</p>
+                <p>Enfrente criaturas assustadoras e desvende segredos sombrios em uma narrativa cheia de tensão. Clique para saber mais...</p>
+            </div>
+            <div class="item-grande">
+                <a href="outlast-2.html">
+                <img src="img/outlast-2.jpg" alt="Outlast 2" class="foto-item">
+                </a>
+                <p class="card-title">Outlast 2</p>
+                <p>Explore um mundo de terror e suspense em uma narrativa envolvente. Clique para saber mais...</p>
+            </div>
+                <div class="item-grande">
+                    <a href="amnesia-rebirth.html">
+                    <img src="img/amnesia-rebirth.jpg" alt="Amnesia: Rebirth" class="foto-item">
+                    </a>
+                    <p class="card-title">Amnesia: Rebirth</p>
+                    <p>Descubra os segredos de um castelo misterioso em uma narrativa envolvente. Clique para saber mais...</p>
+                </div>
+            <div class="item-grande">
+                <a href="phasmophobia.html">
+                <img src="img/phasmophobia.jpg" alt="Phasmophobia" class="foto-item">
+                </a>
+                <p class="card-title">Phasmophobia</p>
+                <p>Investigue fenômenos paranormais em uma narrativa de terror psicológico. Clique para saber mais...</p>
+            </div>
+                <div class="item-grande">
+                    <a href="alien-isolation.html">
+                    <img src="img/alien-isolation.jpg" alt="Alien Isolation" class="foto-item">
+                    </a>
+                    <p class="card-title">Alien Isolation</p>
+                    <p>Enfrente o caçador de alienígenas em uma narrativa de terror e suspense. Clique para saber mais...</p>
+                </div>
+        </section>
+
+        <div class="itens-laterais">
+            <strong><p class="titulo-lateral">Categoria Publicitária</p></strong>
+
+            <div class="item-pequeno">
+                    <p class="card-title">Social</p>
+                    Conecte-se, compartilhe e jogue com amigos! Descubra uma comunidade vibrante de jogadores, eventos exclusivos e muito mais. 🌐 Clique e junte-se à diversão!
+            </div>
+
+            <div class="item-pequeno">
+                <p class="card-title">Lifeinvader</p>
+                Exponha-se. É grátis (pelo menos por enquanto).
+                Junte-se a milhões de pessoas que trocaram o contato humano real por notificações de dopamina. Lifeinvader: Onde a vida acontece (na tela). Clique para saber mais...
+            </div>
+
+            <div class="item-pequeno">
+                <p class="card-title">RON </p>
+                "O PETRÓLEO ACABANDO? ISSO É ÓTIMO PARA OS NEGÓCIOS!" 📈
+                Enquanto o mundo entra em pânico com a escassez, nós aumentamos o preço. Invista na RON e veja seus dividendos subirem mais rápido que o nível do mar. RON Oil: Lucro bruto, refino duvidoso.
+            </div>
+    </main>
+    <a href="lancamentos.html" class="botao-footer">Voltar para Lançamentos</a>
+</body>
+</html>

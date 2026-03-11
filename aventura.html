@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Aventura - Ender Game</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Press Start 2P', cursive;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 2em;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .titulo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .itens-principais, .itens-laterais {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item-grande, .item-pequeno {
+            background-color: #262626;
+            border: 2px solid #ffcc00;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .item-grande:hover, .item-pequeno:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #ffcc00;
+        }
+        .foto-item, .foto-pequena {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            color: #ff6600;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .botao-footer {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .botao-footer:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ender Game</h1>
+        <nav>
+            <a href="index.html" class="botao-nav">Home</a>
+            <a href="sobre.html" class="botao-nav">Sobre Nós</a>
+            <a href="lancamentos.html" class="botao-nav">Lançamentos</a>
+            <a href="#" class="botao-nav">Login</a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h2>Jogos de Aventura</h2>
+        <p>Explore nossos jogos de aventura, onde você pode viver experiências emocionantes e desafiadoras. Confira os jogos mais populares!</p>
+
+    <main>
+        <section class="itens-principais">
+                <div class="item-grande">
+                    <a href="sonic-frontiers.html">
+                    <img src="img/sonic-frontiers.jpg" alt="Sonic Frontiers" class="foto-item">
+                    </a>
+                    <p class="card-title">Sonic Frontiers</p>
+                    <p>Explore novos territórios com Sonic em uma aventura épica. Clique para saber mais...</p>
+                </div>
+
+            <div class="item-grande">
+                <a href="zelda.html">
+                <img src="img/zelda.jpg" alt="The Legend of Zelda" class="foto-item">
+                </a>
+                <p class="card-title">The Legend of Zelda</p>
+                <p>Embarque em uma missão épica no reino de Hyrule. Clique para saber mais...</p>
+            </div>
+            <div class="item-grande">
+                <a href="red-dead-redemption-2.html">
+                <img src="img/red-dead-redemption-2.jpg" alt="Red Dead Redemption 2" class="foto-item">
+                </a>
+                <p class="card-title">Red Dead Redemption 2</p>
+                <p>Immerse-se em um mundo de fronteiras e sobreviva em um ambiente hostil. Clique para saber mais...</p>
+            </div>
+                <div class="item-grande">
+                    <a href="spider-man.html">
+                    <img src="img/spider-man.jpg" alt="Spider-Man" class="foto-item">
+                    </a>
+                    <p class="card-title">Marvel's Spider-Man</p>
+                    <p>Use seus poderes para salvar a cidade de Manhattan. Clique para saber mais...</p>
+                </div>
+            <div class="item-grande">
+                <a href="gosth-of-tsushima.html">
+                <img src="img/gosth-of-tsushima.jpg" alt="Ghost of Tsushima" class="foto-item">
+                </a>
+                <p class="card-title">Ghost of Tsushima</p>
+                <p>Immerse-se em uma narrativa intensa e emocionante. Clique para saber mais...</p>
+            </div>
+                <div class="item-grande">
+                    <a href="baldurs-gate-3.html">
+                    <img src="img/baldurs-gate-3.jpg" alt="Baldur's Gate 3" class="foto-item">
+                    </a>
+                    <p class="card-title">Baldur's Gate 3</p>
+                    <p>Immerse-se em um mundo de fantasia rica e complexa. Clique para saber mais...</p>
+                </div>
+        </section>
+
+        <div class="itens-laterais">
+            <strong><p class="titulo-lateral">Categoria Publicitária</p></strong>
+
+            <div class="item-pequeno">
+                <p class="card-title">Cluckin' Bell</p>
+                Trabalhe no balcão mais hygienic do estado! Sirva nuggets duvidosos e ignore as multas sanitárias. Seus clientes não vão morrer... provavelmente. Clique para saber mais...
+            </div>
+
+            <div class="item-pequeno">
+                <p class="card-title">Tax Evasion</p>
+                Esconda suas fortunas em paraísos fiscais! Crie empresas de fachada e evite o FBI. Somente para adultos espertos. Clique para saber mais...
+            </div>
+
+            <div class="item-pequeno">
+                <p class="card-title">Dumpster Diving</p>
+                Revire lixeiras atrás de tesouros! Encontre comida ainda boa e itens valiosos que as pessoas jogam fora. O sonho do pobre! Clique para saber mais...
+            </div>
+    </main>
+    <a href="lancamentos.html" class="botao-footer">Voltar para Lançamentos</a>
+</body>
+</html>

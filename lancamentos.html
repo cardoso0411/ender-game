@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Lançamentos - Ender Game</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Press Start 2P', cursive;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 2em;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        .titulo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .itens-principais, .itens-laterais {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item-grande, .item-pequeno {
+            background-color: #262626;
+            border: 2px solid #ffcc00;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            min-height: 280px;
+            width: 300px;
+        }
+        .item-grande:hover, .item-pequeno:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #ffcc00;
+        }
+        .foto-item, .foto-pequena {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            color: #ff6600;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .botao-footer {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .botao-footer:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ender Game</h1>
+        <nav>
+            <a href="index.html" class="botao-nav">Home</a>
+            <a href="sobre.html" class="botao-nav">Sobre Nós</a>
+            <a href="catalogo.html" class="botao-nav">Catálogo</a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <strong><p id="topo">BEM VINDO A ÁREA DE LANÇAMENTOS!</p></strong>
+        <p>Explore as novidades e fique por dentro dos lançamentos mais aguardados do mundo dos games!</p>
+    </div>
+
+    <main>
+        <section class="itens-principais">
+                <div class="item-grande">
+                    <a href="minecraft.html">
+                        <img src="img/minecraft.png" alt="Minecraft" class="foto-item">
+                    </a>
+                    <p class="card-title">Minecraft</p>
+                    Entre em um universo infinito de criatividade e aventura! Construa qualquer coisa, explore mundos gerados aleatoriamente e viva experiências únicas. Pronto para a aventura? 👉 Clique para saber mais!
+                </div>
+                    <a href="eldenring.html">
+                <div class="item-grande">
+                    <a href="eldenring.html">
+                        <img src="img/Elden Ring.jpg" alt="elden ring" class="foto-item">
+                    </a>
+                    <p class="card-title">Elden Ring</p>
+                    Embarque em uma jornada épica pelos Terros Intermédios! Derrote lordes ancestrales e descubra os segredos de um mundo perigoso. Seu destino espera! 🔥 Clique e conquiste!
+                </div>
+             <a href="forzahorizon.html">
+                <div class="item-grande">
+                    <a href="forzahorizon.html">
+                        <img src="img/forza horizon 5.jpg" alt="forza horizon 5" class="foto-item">
+                    </a>
+                    <p class="card-title">Forza Horizon 5</p>
+                    Sinta a adrenalina nas pistas mais emocionantes do México! Carros INCÍVEIS, paisagens espetaculares e liberdade total. 🏎️ Pronto para acelerar?
+                </div>
+            <a href="haloinfinite.html">
+                <div class="item-grande">
+                    <a href="haloinfinite.html">
+                        <img src="img/halo infinite.jpg" alt="halo infinite" class="foto-item">
+                    </a>
+                    <p class="card-title">Halo Infinite</p>
+                    Viva a ação épica do Chief em uma batalha espacial INCRÍVEL! O maestro retorna para salvar a humanidade. 🎮 Clique e entre na luta!
+                </div>
+             <a href="assassinscreed.html">
+                <div class="item-grande">
+                    <a href="assassinscreed.html">
+                        <img src="img/assassins creed valhalla.jpg" alt="assassins creed valhalla" class="foto-item">
+                    </a>
+                    <p class="card-title">Assassin's Creed Valhalla</p>
+                    Torne-se um lendário guerreiro viking! Invada, conquiste e forje seu destino na Era Viking. ⚔️ Prepare-se para a saga!
+                </div>
+            </a>
+             <a href="cyberpunk.html">
+                <div class="item-grande">
+                    <a href="cyberpunk.html">
+                        <img src="img/cyberpunk-2077.jpg" alt="cyberpunk 2077" class="foto-item">
+                    </a>
+                    <p class="card-title">Cyberpunk 2077</p>
+                    Mergulhe no futuro sombrio de Night City! Personalize seu cyberware e viva uma história eletrizante. 🌃 Explore o neon e o perigo!
+                </div>
+                <a href="castlevania.html">
+                <div class="item-grande">
+                        <img src="img/castlevania.jpg" alt="castlevania: lords of shadow 2" class="foto-item">
+                    </a>
+                    <p class="card-title">castlevania: lords of shadow 2</p>
+                    Explore um mundo pós-apocalíptico habitado por máquinas épicas! Caçe, explore e desvende os mistérios do passado. 🤖 Aventura te espera!
+                </div>
+                <a href="residentevil.html">
+                <div class="item-grande">
+                    <a href="residentevil.html">
+                        <img src="img/resident evil 4.jpg" alt="resident evil 4" class="foto-item">
+                    </a>
+                    <p class="card-title">Resident Evil 4</p>
+                    Viva o horror mais intensidade da história de Leon! Zumbis, parasitas e ação eletrizante te esperam. 🧟 Clique e sobreviva!
+                </div>
+                <a href="thelastofus.html">
+                <div class="item-grande">
+                    <a href="thelastofus.html">
+                        <img src="img/the-last-of-us.jpg" alt="the last of us" class="foto-item">
+                    </a>
+                    <p class="card-title">The Last of Us</p>
+                    Uma história emocional de sobrevivência e vínculo! Em um mundo destruído, Joel e Ellie buscam esperança. 😢 Clique e emocione-se!
+                </div>
+        </section>
+
+        <div class="itens-laterais">
+            <strong><p class="titulo-lateral">CATEGORIAS EXTRAS</p></strong>
+                <a href="simulacao.html">
+                <div class="item-pequeno">
+                    <img src="img/flight.jpeg" alt="" class="foto-pequena">
+                    <p>Simulação</p>
+                </div>
+                </a>
+                <a href="terror.html">
+                    <div class="item-pequeno">
+                        <img src="img/terror.jpg" alt="" class="foto-pequena">
+                        <p>Terror</p>
+                    </div>
+                </a>
+                <a href="acao.html">
+                    <div class="item-pequeno">
+                        <img src="img/godofwar.jpeg" alt="" class="foto-pequena">
+                        <p>Ação</p>
+                    </div>
+                </a>
+                    <a href="aventura.html">
+                        <div class="item-pequeno">
+                            <img src="img/doom.jpg" alt="" class="foto-pequena">
+                            <p>Aventura</p>
+                        </div>
+                    </a>
+                     <a href="rpg.html">
+                        <div class="item-pequeno">
+                            <img src="img/age of empires.jpg" alt="" class="foto-pequena">
+                            <p>RPG</p>
+                        </div>
+                    </a>
+            </strong>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ender Game. Todos os direitos reservados.</p>
+        <a href="lancamentos.html" class="botao-footer">Voltar ao topo</a>
+</body>
+</html>
