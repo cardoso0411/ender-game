@@ -1,82 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Ação - Ender Game</title>
-    <style>
-        body {
-            background-color: #1a1a1a;
-            color: #f0f0f0;
-            font-family: 'Press Start 2P', cursive;
-        }
-        header {
-            background-color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            color: #ffcc00;
-            font-size: 2em;
-        }
-        nav a {
-            color: #ffcc00;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #ff6600;
-        }
-        .titulo {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .itens-principais, .itens-laterais {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-        .item-grande, .item-pequeno {
-            background-color: #262626;
-            border: 2px solid #ffcc00;
-            border-radius: 10px;
-            padding: 15px;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .item-grande:hover, .item-pequeno:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 15px #ffcc00;
-        }
-        .foto-item, .foto-pequena {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .card-title {
-            font-size: 1.2em;
-            color: #ff6600;
-            margin: 10px 0;
-        }
-        footer {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        .botao-footer {
-            color: #ffcc00;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .botao-footer:hover {
-            color: #ff6600;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -88,75 +19,97 @@
         </nav>
     </header>
 
-    <div class="titulo">
-        <h2>Jogos de Ação</h2>
-        <p>Explore nossos jogos de ação, onde você pode viver experiências emocionantes e desafiadoras. Confira os jogos mais populares!</p>
-
-    <main>
-        <section class="itens-principais">
-                <div class="item-grande">
-                    <a href="God-of-War-Ragnarok.html">
-                    <img src="img/god-of-war-ragnarok.jpg" alt="God of War: Ragnarök" class="foto-item">
-                    </a>
-                    <p class="card-title">God of War: Ragnarök</p>
-                    Enfrente os deuses nórdicos e participe de batalhas épicas em um mundo mágico e desafiador. Clique para saber mais...
-                </div>
-            </a>
-            <div class="item-grande">
-                <a href="dbz-kakarot.html">
-                <img src="img/dbz-kakarot.jpg" alt="Dragon Ball Z: Kakarot" class="foto-item">
-                </a>
-                <p class="card-title">Dragon Ball Z: Kakarot</p>
-                <p>Participe de batalhas épicas com seus personagens favoritos do universo Dragon Ball. Clique para saber mais...</p>
-            </div>
-            <div class="item-grande">
-                <a href="street-fighter-6.html">
-                <img src="img/street-fighter-6.jpg" alt="Street Fighter 6" class="foto-item">
-                </a>
-                <p class="card-title">Street Fighter 6</p>
-                <p>Participe de batalhas intensas em uma narrativa envolvente. Clique para saber mais...</p>
-            </div>
-                <div class="item-grande">
-                    <a href="mortal-kombat-11.html">
-                    <img src="img/mortal-kombat-11.jpg" alt="Mortal Kombat 11" class="foto-item">
-                    </a>
-                    <p class="card-title">Mortal Kombat 11</p>
-                    <p>Participe de batalhas intensas em uma narrativa envolvente. Clique para saber mais...</p>
-                </div>
-            <div class="item-grande">
-                <a href="call-of-duty.html">
-                <img src="img/call-of-duty-modern-warfare-2.jpg" alt="Call of Duty: Modern Warfare 2" class="foto-item">
-                </a>
-                <p class="card-title">Call of Duty: Modern Warfare 2</p>
-                <p>Immerse-se em uma narrativa intensa e emocionante. Clique para saber mais...</p>
-            </div>
-                <div class="item-grande">
-                    <a href="pubg.html">
-                    <img src="img/pubg.jpg" alt="PUBG" class="foto-item">
-                    </a>
-                    <p class="card-title">PUBG</p>
-                    <p>Participe de batalhas intensas em uma narrativa envolvente. Clique para saber mais...</p>
-                </div>
+    <div class="page">
+        <section class="titulo">
+            <h2>Jogos de Ação</h2>
+            <p>Explore nossos jogos de ação, onde você pode viver experiências emocionantes e desafiadoras. Confira os jogos mais populares!</p>
         </section>
 
-        <div class="itens-laterais">
-            <strong><p class="titulo-lateral">Categoria Publicitária</p></strong>
+        <div class="layout">
+            <main>
+                <section class="itens-principais">
+                    <article class="item-grande">
+                        <a href="God-of-War-Ragnarok.html" class="media">
+                            <img src="img/god-of-war-ragnarok.jpg" alt="God of War: Ragnarok" class="foto-item">
+                        </a>
+                        <h3 class="card-title">God of War: Ragnarok</h3>
+                        <p>Enfrente os deuses nórdicos e participe de batalhas épicas em um mundo mágico e desafiador.</p>
+                        <a class="btn-action" href="God-of-War-Ragnarok.html">Ver detalhes</a>
+                    </article>
 
-            <div class="item-pequeno">
-                <p class="card-title"> Ego Chaser</p>
-                Uma barra de cereais com 400% do seu açúcar diário e zero gramas de arrependimento. Perfeita para quem corre 20km para compensar o vazio existencial ou para quem só quer um motivo para usar roupas de lycra em público.
-            </div>
+                    <article class="item-grande">
+                        <a href="dbz-kakarot.html" class="media">
+                            <img src="img/dbz-kakarot.jpg" alt="Dragon Ball Z: Kakarot" class="foto-item">
+                        </a>
+                        <h3 class="card-title">Dragon Ball Z: Kakarot</h3>
+                        <p>Participe de batalhas épicas com seus personagens favoritos do universo Dragon Ball.</p>
+                        <a class="btn-action" href="dbz-kakarot.html">Ver detalhes</a>
+                    </article>
 
-            <div class="item-pequeno">
-                <p class="card-title">Pißwasser</p>
-                Exportada da Alemanha, mas com o espírito de um bêbado brigando em um estacionamento. Beba até que seus problemas sumam e suas decisões façam sentido! Proibido para menores de 18 anos (ou não, a gente não confere o RG).
-            </div>
-            <div class="item-pequeno">
-                <p class="card-title">Sprunk (Refrigerante)</p>
-                Com o tom verde neon que brilha no escuro e cafeína suficiente para fritar o cérebro de um elefante. A bebida favorita dos viciados em adrenalina e dos funcionários da Lifeinvader que não dormem há três dias.
-                Sprunk – Acelere seu coração até ele pedir arrego.
-            </div>
-    </main>
-    <a href="lancamentos.html" class="botao-footer">Voltar para Lançamentos</a>
+                    <article class="item-grande">
+                        <a href="street-fighter-6.html" class="media">
+                            <img src="img/street-fighter-6.jpg" alt="Street Fighter 6" class="foto-item">
+                        </a>
+                        <h3 class="card-title">Street Fighter 6</h3>
+                        <p>Participe de batalhas intensas com personagens icônicos e um estilo visual marcante.</p>
+                        <a class="btn-action" href="street-fighter-6.html">Ver detalhes</a>
+                    </article>
+
+                    <article class="item-grande">
+                        <a href="mortal-kombat-11.html" class="media">
+                            <img src="img/mortal-kombat-11.jpg" alt="Mortal Kombat 11" class="foto-item">
+                        </a>
+                        <h3 class="card-title">Mortal Kombat 11</h3>
+                        <p>Entre na arena e encare combates brutais com uma narrativa cinematográfica.</p>
+                        <a class="btn-action" href="mortal-kombat-11.html">Ver detalhes</a>
+                    </article>
+
+                    <article class="item-grande">
+                        <a href="call-of-duty.html" class="media">
+                            <img src="img/call-of-duty-modern-warfare-2.jpg" alt="Call of Duty: Modern Warfare 2" class="foto-item">
+                        </a>
+                        <h3 class="card-title">Call of Duty: Modern Warfare 2</h3>
+                        <p>Viva uma campanha intensa e modos multiplayer frenéticos com ação ininterrupta.</p>
+                        <a class="btn-action" href="call-of-duty.html">Ver detalhes</a>
+                    </article>
+
+                    <article class="item-grande">
+                        <a href="pubg.html" class="media">
+                            <img src="img/pubg.jpg" alt="PUBG" class="foto-item">
+                        </a>
+                        <h3 class="card-title">PUBG</h3>
+                        <p>Sobreviva em combates táticos e seja o último jogador de pé no campo de batalha.</p>
+                        <a class="btn-action" href="pubg.html">Ver detalhes</a>
+                    </article>
+                </section>
+            </main>
+
+            <aside class="sidebar">
+                <p class="titulo-lateral">Categoria Publicitária</p>
+
+                <div class="item-pequeno">
+                    <p class="card-title">Ego Chaser</p>
+                    <p>Uma barra de cereais com 400% do seu açúcar diário e zero gramas de arrependimento. Perfeita para quem corre 20 km para compensar o vazio existencial.</p>
+                    <a class="btn-ghost" href="#">Experimentar</a>
+                </div>
+
+                <div class="item-pequeno">
+                    <p class="card-title">Pißwasser</p>
+                    <p>Exportada da Alemanha, mas com o espírito de um bêbado brigando em um estacionamento. Beba até seus problemas sumirem.</p>
+                    <a class="btn-ghost" href="#">Ver rótulo</a>
+                </div>
+
+                <div class="item-pequeno">
+                    <p class="card-title">Sprunk</p>
+                    <p>Refrigerante verde neon com cafeína suficiente para fritar o cérebro de um elefante. Acelere seu coração até ele pedir arrego.</p>
+                    <a class="btn-ghost" href="#">Abrir lata</a>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <a href="lancamentos.html" class="botao-footer">Voltar para Lançamentos</a>
+        </footer>
+    </div>
 </body>
 </html>

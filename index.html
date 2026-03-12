@@ -1,80 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Página Inicial - Ender Game</title>
-     <style>
-        body {
-            background-color: #1a1a1a;
-            color: #f0f0f0;
-            font-family: 'Press Start 2P', cursive;
-        }
-        header {
-            background-color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            color: #ffcc00;
-            font-size: 2em;
-        }
-        nav a {
-            color: #ffcc00;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #ff6600;
-        }
-        .titulo {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .itens-principais, .itens-laterais {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-        .item-grande, .item-pequeno {
-            background-color: #262626;
-            border: 2px solid #ffcc00;
-            border-radius: 10px;
-            padding: 15px;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .item-grande:hover, .item-pequeno:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 15px #ffcc00;
-        }
-        .foto-item, .foto-pequena {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .card-title {
-            font-size: 1.2em;
-            color: #ff6600;
-            margin: 10px 0;
-        }
-        footer {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        .botao-footer {
-            color: #ffcc00;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .botao-footer:hover {
-            color: #ff6600;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -86,17 +18,26 @@
         </nav>
     </header>
 
-    <div class="titulo">
-        <strong><p id="topo">Seja bem-vindo à nossa loja virtual de jogos!</p></strong>
-        <p style="color: #ffcc00;">Aqui você encontrará uma vasta seleção de jogos para todas as plataformas, desde os lançamentos mais recentes até os clássicos atemporais. Navegue por nosso catálogo e descubra títulos incríveis para PC, consoles e dispositivos móveis. Aproveite nossas ofertas exclusivas e junte-se à comunidade de gamers que confiam na Ender Game para suas compras de jogos. Boa diversão!</p>
+    <div class="page">
+        <section class="titulo">
+            <h2>Seja bem-vindo à nossa loja virtual de jogos</h2>
+            <p>Descubra títulos para PC, consoles e dispositivos móveis com curadoria e ofertas especiais.</p>
+        </section>
 
-    <div class="container text-center">
-        <img src="img/catalogo-jogos.jpg" alt="Imagem de um grupo de amigos" class="img-fluid my-4 w-50">
+        <section class="hero">
+            <div class="hero-text">
+                <p>Aqui você encontra uma vasta seleção de jogos para todas as plataformas, dos lançamentos mais recentes aos clássicos atemporais. Navegue pelo nosso catálogo e descubra títulos incríveis para diferentes estilos de gameplay.</p>
+                <p>A Ender Game é sua loja virtual de confiança, oferecendo uma experiência de compra segura, rápida e com preços competitivos. Junte-se à nossa comunidade e aproveite as melhores ofertas do mercado.</p>
+                <a href="lancamentos.html" class="btn-action">Confira nossos lançamentos</a>
+            </div>
+            <div class="hero-media">
+                <img src="img/catalogo-jogos.jpg" alt="Jogadores reunidos para jogar" class="hero-image">
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Ender Game. Todos os direitos reservados.</p>
+        </footer>
     </div>
-    <div class="container"></div>
-        <p style="color: #ffcc00;">Ender Game é uma loja  virtual de jogos, onde você pode encontrar os melhores títulos para todas as plataformas. Nossa missão é proporcionar uma experiência de compra fácil e segura, oferecendo uma ampla variedade de jogos para todos os gostos. Explore nosso catálogo e descubra os lançamentos mais recentes, além de clássicos atemporais. Junte-se à nossa comunidade de gamers e aproveite as melhores ofertas do mercado!
-        </p> 
-        <a href="lancamentos.html" class="botao-footer">Confira nossos lançamentos</a>
-    </div>
-</html>
 </body>
+</html>
