@@ -35,22 +35,6 @@ O projeto apresenta um tema escuro com acentos em amarelo e laranja, remetendo �
 - Layout responsivo com Flexbox/Grid
 - Footer com informações adicionais
 
-## ▶️ Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/ender-game.git
-   ```
-
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd ender-game
-   ```
-
-3. Abra o arquivo `index.html` em seu navegador preferido
-
-   Ou simplesmente arraste o arquivo `index.html` para o navegador.
-
 ## 🔧 Personalização
 
 Para personalizar o projeto:
@@ -68,7 +52,6 @@ Este projeto é apenas para fins educacionais e de portfólio.
 Bruno Cardoso
 
 ---
-
 ⭐️ Se este projeto foi útil para você, considere dar uma estrela!
 
 ---
