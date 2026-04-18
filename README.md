@@ -1,6 +1,12 @@
 # 🎮 Ender Game - Loja Virtual de Jogos
 
 > Uma loja virtual de jogos completa, desenvolvida com HTML, CSS e JavaScript.
+>
+> <p align="center">
+  <a href="https://cardoso0411.github.io/ender-game" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20Acessar%20Projeto-Online-blue?style=for-the-badge&logo=google-chrome">
+  </a>
+</p>
 
 ## 📝 Descrição
 
