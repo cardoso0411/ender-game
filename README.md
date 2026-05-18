@@ -24,7 +24,6 @@ O **Ender Game** é um projeto de loja virtual de jogos digitais, desenvolvido c
 - **HTML5**: Estrutura das páginas
 - **CSS3**: Estilização e design responsivo
 - **Bootstrap 4.5.2**: Framework CSS para componentes responsivos
-- **JavaScript**: Funcionalidades dinâmicas (futuro)
 
 ## 📸 Pré-visualização
 
