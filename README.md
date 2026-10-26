@@ -3,7 +3,7 @@
 > Uma loja virtual de jogos completa, desenvolvida com HTML, CSS e JavaScript.
 >
 > <p align="center">
-  <a href="https://cardoso0411.github.io/ender-game" target="_blank">
+  <a href="https://cardoso0411.github.io/ender-game/pages/" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20Acessar%20Projeto-Online-blue?style=for-the-badge&logo=google-chrome">
   </a>
 </p>
@@ -38,9 +38,10 @@ O projeto apresenta um tema escuro com acentos em amarelo e laranja, remetendo �
 
 Para personalizar o projeto:
 
-1. **Cores**: Edite o arquivo `style.css` para alterar o tema visual
-2. **Imagens**: Adicione suas imagens na pasta `img/`
-3. **Jogos**: Edite os arquivos HTML correspondentes para adicionar ou remover títulos
+1. **Páginas**: Os arquivos HTML ficam na pasta `pages/`; abra `pages/index.html` para iniciar o site localmente
+2. **Cores**: Edite o arquivo `pages/style.css` para alterar o tema visual
+3. **Imagens**: Adicione suas imagens na pasta `img/`
+4. **Jogos**: Edite os arquivos HTML correspondentes dentro de `pages/`
 
 ## 📄 Licença
 
