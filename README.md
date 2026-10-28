@@ -43,17 +43,7 @@ Para personalizar o projeto:
 3. **Imagens**: Adicione suas imagens na pasta `img/`
 4. **Jogos**: Edite os arquivos HTML correspondentes dentro de `pages/`
 
-## 📄 Licença
-
 Este projeto é apenas para fins educacionais e de portfólio.
-
-## 👤 Autor
-
-Bruno Cardoso
-
----
-⭐️ Se este projeto foi útil para você, considere dar uma estrela!
-
 ---
 
 *Projeto desenvolvido como parte do portfólio de desenvolvimento web.*
